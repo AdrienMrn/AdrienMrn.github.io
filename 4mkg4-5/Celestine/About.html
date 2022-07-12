@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.15.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="img/logo.jpeg"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Parisienne&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    'Parisienne': ['"Parisienne"', 'cursive'],
+                    'Caslon': ['"Libre Caslon Display"', 'serif']
+                },
+                extend: {
+                    colors: {
+                        rose: '#D5AEAE',
+                        vertClair: '#E7E7DA',
+                        vertFonce: '#5B6A4E',
+                        vertFondu: '#BABFAD',
+                    }
+                } 
+            }
+        }
+    </script>
+
+    <title>Celestine</title>
+</head>
+<body class="bg-vertClair">
+
+    <nav class="bg-vertClair">
+        <div class="w-full fixed z-50 top-0">
+            <div class="bg-vertClair h-24 border-b-gray-800 shadow-md flex justify-center items-center">
+                <ul class="flex items-center">
+                    <li class="my-0 mx-5 lg:mx-10">
+                        <a href="index.html" class="text-black font-Caslon hover:text-green-900">Accueil</a>
+                    </li>
+                    <li class="my-0 mx-5 lg:mx-10">
+                        <a href="About.html" class="text-black font-Caslon hover:text-green-900">Histoire</a>
+                    </li>
+                </ul>
+                <img class="h-20" src="img/logo.png" alt="">
+                <ul class="flex items-center">
+                    <li class="my-0 mx-5 lg:mx-10">
+                        <a href="shop.html" class="text-black font-Caslon hover:text-green-900">Produits</a>
+                    </li>
+                    <li class="my-0 mx-5 lg:mx-10">
+                        <a href="contact.html" class="text-black font-Caslon hover:text-green-900">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>  
+    </nav>
+
+    <header>
+        <div class="flex items-center mt-[95px] lg:mt-0 w-full m-auto bg-[url('img/ligne-so-confort-sans-armatures-noir-nude.png')] h-96 lg:h-screen bg-cover bg-center">
+            <div class="w-[80%] m-auto">
+                <div class="items-center text-white">
+                    <h2 class="text-7xl lg:text-8xl font-Caslon pt-20 lg:pt-28 mb-12 text-center lg:text-left">Occupez-vous<br> de vos culottes</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Fil d'ariane -->
+
+    <div class="flex justify-center items-center text-sm breadcrumbs mb-10">
+        <ul class="mt-10">
+          <li><a href="index.html" class="font-Caslon text-xl">Accueil</a></li> 
+          <li class="font-Caslon text-xl">Histoire</li> 
+        </ul>
+    </div>
+
+    <!-- Les rois de la culotte -->
+
+    <div class="w-full m-auto lg:bg-vertFondu mt-16">
+        <div class="hero-content flex-col lg:flex-row lg:w-[60%] justify-center m-auto">
+            <img src="img/photo-equipe.jpg" class="lg:scale-125 w-72" />
+            <div class="items-center mt-16 lg:ml-12 lg:text-white">
+                <h2 class="text-5xl font-Parisienne text-center lg:text-left lg:ml-5">Les rois de la culotte</h2>
+                <p id="Experte" class=" mx-5 text-xl text-justify py-6 font-Caslon">
+                    Les sous-vêtements Célestine sont nés de l’ association de 6 amis d’enfance sensibles aux différentes problématiques auxquelles les femmes de notre société peuvent être confrontés.
+                    Forts de leurs expertises dans les domaines du marketing et du digital, nous avons conçu le meilleur sous-vêtement intelligent possible et toujours respectueux de l’environnement.
+                                    </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- La culotte -->
+
+    <h2 class="text-5xl font-Parisienne text-center my-14">La culotte Celestine</h2>
+
+    <div class="lg:bg-vertFonce lg:py-6">
+        <div class="lg:w-[70%] m-auto lg:bg-vertFonce">
+            <div class="hero-content flex-col lg:flex-row justify-bet m-auto">
+                <div class="items-center lg:pr-10">
+                    <p class="lg:ml-12 mx-5 font-Caslon lg:text-rose text-3xl text-justify">La culotte d'aujourd'hui et de demain</p>
+                    <p class="lg:ml-12 mx-5 py-6 font-Caslon lg:text-white text-xl text-justify">
+                        Célestine est une marque de sous-vêtements connectés, via une application et destinés aux femmes. Ces sous-vêtements résolvent des problématiques différentes en fonction des sexes, des âges tout en gardant un confort optimal. 
+                        Notre lingerie est conçue en fibres recyclées et recyclables pour correspondre à notre souhait de proposer des produits agréables à porter, efficaces et respectueux de l’environnement. 
+                        Célestine propose toutes les formes de sous-vêtements pour femmes : culottes, tangas et string. Porter nos sous-vêtements c’est prendre soin de sa santé sans compromettre sa féminité : les matières sont agréables à porter et les coupes mettent en valeur vos plus belles courbes.                     </p>
+                </div>
+                <img src="img/mock-up-culotte-carre.jpg" class="max-w-sm rounded-full" />
+            </div>
+        </div>
+        <div class="lg:w-[70%] m-auto lg:bg-vertFonce">
+            <div class="hero-content flex-col lg:flex-row justify-bet m-auto">
+                <img src="img/Dr-Gaston.png" class="max-w-sm rounded-full" />
+                <div class="items-center lg:px-10">
+                    <p class="mx-5 font-Caslon lg:text-rose text-3xl text-justify">La santé maitrisée</p>
+                    <p class="mx-5 py-6 font-Caslon lg:text-white text-xl text-justify">
+                        Pour créer le sous-vêtement intelligent le plus performant possible, nous nous sommes entourés du <span class="text-rose">Professeur en Gynécologie Dr. Gaston</span>, diplômée de la Sorbonne, promotion 1984. 
+                        Après 4 années de Recherche et de tests, <span class="text-rose">Dr Gaston</span> a su développer scientifiquement le patch idéal qui permet d’éviter une prise de contraception hormonale ou contraignante et prévenir d’éventuelles maladies auxquelles nous pouvons être exposés tout au long de notre vie. 
+                        Notre patch est une technologie brevetée depuis 2019.                     </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- parallaxe -->
+
+    <div class="bg-[url('img/parallaxe.jpg')] h-96 bg-cover bg-center bg-fixed"></div>
+
+    <!-- Et cette culotte ? -->
+
+    <div class="lg:flex my-10 w-[70%] m-auto items-center gap-6">
+        <div>
+            <h2 class="font-Parisienne text-5xl mb-5 lg:text-left text-center ">Et la culotte fut !</h2>
+            <p class="font-Caslon text-xl text-justify">
+                Nous avons ensuite développé une application, nommée “Célestine” qui est reliée aux patchs insérés dans nos sous-vêtements et qui permet à l’utilisateur ou l’utilisatrice d’obtenir toutes les informations obtenues par ce patch.
+                <br>
+                <br>
+            </p>
+            <p class="font-Caslon text-xl text-justify mb-5">
+                Le patch est donc inséré dans le tissu de nos sous-vêtements et capte tous les signes émis par notre corps. Il permet de prévenir ces cycles menstruels, la période d’ovulation, les infections urinaires, la ménopause et d’éventuels cancers. 
+            </p>
+            <p class="font-Parisienne text-3xl my-2">Et comment on la lave ?</p>
+            <div class="flex items-center font-Caslon">
+                <img src="img/icons8-machine-à-laver-50.png" alt="">
+                <p>Lavage à 30°</p>
+            </div>
+            <div class="flex items-center font-Caslon">
+                <img src="img/icons8-sèche-linge-50.png" alt="">
+                <p>Pas de sèche linge</p>
+            </div>
+        </div>
+        <img class="mt-10 lg:mt-0 lg:w-1/2" src="img/Description-culotte.png" alt="">
+    </div>
+
+    <!-- Application -->
+
+    <div class="lg:flex my-10 w-[70%] m-auto items-center">
+        <img class="lg:w-1/2" src="img/application.png" alt="">
+        <div>
+            <h2 class="font-Parisienne text-5xl my-5 lg:text-left text-center leading-normal">L'application Célestine</h2>
+            <p class="font-Caslon text-xl text-justify">
+                Notre application Célestine a été développée pour que l’utilisatrice puisse suivre en temps réel l’arrivée de son cycle, sa période d’ovulation, les signaux indicateurs d’un début de ménopause, une infection urinaire.<br>L’application est sous forme de calendrier et toutes les informations sont répertoriées dessus.    
+            </p>
+            <p class="font-Caslon text-xl text-justify">
+                L’utilisatrice peut ajouter d’éventuels symptômes qu’elle ressent pour permettre à l’application de déceler un changement. 
+            </p>
+            <div class="flex items-center font-Caslon mt-10 gap-6">
+                <img src="img/icons8-logo-ios-50.png" alt="">
+                <img src="img/icons8-android-os-50.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="bg-vertFonce footer footer-center p-10 bg-base-200 text-base-content rounded">
+        <div class="grid grid-flow-col gap-4">
+            <a class="link link-hover font-Caslon text-white text-base" href="index.html">Accueil</a> 
+            <a class="link link-hover font-Caslon text-white text-base" href="About.html">Histoire</a> 
+            <a class="link link-hover font-Caslon text-white text-base" href="shop.html">Produits</a> 
+            <a class="link link-hover font-Caslon text-white text-base" href="contact.html">Contact</a>
+        </div> 
+        <div>
+            <div class="grid grid-flow-col gap-4">
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a> 
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a> 
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+            </div>
+        </div> 
+        <div>
+            <p class="text-white">Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
+        </div>
+    </footer>
+
+    <div class="">
+        <label for="my-modal" class="hover:bg-white bg-vertClair rounded-lg px-2 fixed lg:right-10 right-0 bottom-10 ease-in duration-100"><img src="img/chatbot.png" alt=""></label>
+    
+        <input type="checkbox" id="my-modal" class="modal-toggle" />
+        <div class="modal">
+            <div class="modal-box">
+                <h3 class="font-bold text-lg">Vous avez besoin d'aide ?</h3>
+                <p class="py-4">Pour toute demande d'informations complémentaires sur nos produits ou un besoin d'aide suite à un problème sur notre site, contactez l'adresse contact@celestine.fr</p>
+                <div class="modal-action">
+                    <label for="my-modal" class="btn">Fermer</label>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
